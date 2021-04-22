@@ -1,0 +1,35 @@
+@import "bootstrap/scss/bootstrap";
+@import "articles";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f4ed;
+  padding: 10px;
+  border-bottom: 1px solid #9e9d89;
+}
+ .nav p {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+ }
+
+ .nav a {
+  color: #9e9d89;
+  opacity: 0.7;
+ }
+
+ .nav a:hover {
+  opacity: 1;
+  text-decoration: none;
+ }
+
+ #container-articles {
+  margin-top: 50px;
+  margin-left: 200px;
+ }
+
+
+

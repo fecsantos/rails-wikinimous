@@ -1,0 +1,10 @@
+<%= simple_form_for @article do |f| %>
+  <%= f.input :title %>
+  <%= f.input :content %>
+  <% if @article.new_record? %>
+  <%= f.submit 'Insert new article' %>
+  <% else %>
+  <%= f.submit 'Update' %>
+  <% end %>
+<% end %>
+
